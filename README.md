@@ -6,12 +6,12 @@ Please check https://github.com/jkbsz/docker-steam-tf2 for more info about runni
 ## Building and running from github
 ```
 docker build -t local/steam-tf2-mmsm .
-docker run -d -i -t -P local/steam-tf2-mmsm
+docker run -i -t -P local/steam-tf2-mmsm
 ```
 
 ## Running from docker hub
 ```
-docker run -d -P -t jkbsz/steam-tf2-mmsm
+docker run -i -P -t jkbsz/steam-tf2-mmsm
 ```
 
 
